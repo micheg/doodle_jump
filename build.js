@@ -41,7 +41,7 @@ require('esbuild').buildSync({
 
 require('esbuild').buildSync(
 {
-    entryPoints: [`${js_dir}/game.js`],
+    entryPoints: [`${js_dir}/doodle_jump.js`],
     bundle: true,
     minify: minify,
     sourcemap: false,
